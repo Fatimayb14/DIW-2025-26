@@ -47,3 +47,22 @@ img {
 h1 {
   text-align: center;
 }
+
+/* Link para subir arriba un nivel */
+.go-up {
+  position: fixed !important;
+  bottom: 10px !important;
+  left: 10px !important;
+  background-color: #198754 !important;
+  color: white !important;
+  padding: 10px !important;
+  border-radius: 5px !important;
+  font-size: 1rem !important;
+}
+
+.go-up a {
+  text-transform: lowercase !important;
+  font-weight: normal !important;
+  text-decoration: none !important;
+  color: white !important;
+}
